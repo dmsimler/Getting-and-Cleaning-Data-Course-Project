@@ -12,4 +12,4 @@ Given below is the manifest of files included in this project:
 + **codebook.md** - This is project codebook which describes the variables in the final tidy dataset and the transformations that were performed on the original raw data to get there.  In particular, it contains the following sections of note:
 	1. Codebook - Lists all the variables in the final tidy dataset
 	2. Instructions on How to Create the Tidy Dataset - Provides step-by-step instructions on how to obtain the HAR dataset and transform it into the target tidy dataset using the run_analysis.R script.
-+ **har_summarized_dataset.txt - This is the summarized tidy dataset which contains 180 rows and 81 columns.  For a detailed description of each column (variable) please consult code_book.md.
++ **har_summarized_dataset.txt** - This is the summarized tidy dataset which contains 180 rows and 81 columns.  For a detailed description of each column (variable) please consult code_book.md.

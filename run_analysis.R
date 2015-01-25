@@ -3,7 +3,7 @@ library(plyr)
 library(dplyr)
 
 ## Set working directory to where the data files are.  Modify this if yours is different.
-setwd("C:\\Coursera Courses\\Getting and Cleaning Data\\Course Project\\Getting-and-Cleaning-Data-Course-Project")
+setwd("C:\\Coursera Courses\\Getting and Cleaning Data\\Course Project")
 
 ## Set the data file names that will be used below to be relative to the current working directory.  This
 ## assumes a folder structure with training and test data in separate child folders and everything else in 
@@ -16,7 +16,7 @@ test_subjects_file_name <- "UCI HAR Dataset\\test\\subject_test.txt"
 activity_labels_file_name <- "UCI HAR Dataset\\activity_labels.txt"
 training_activities_file_name <- "UCI HAR Dataset\\train\\y_train.txt"
 test_activities_file_name <- "UCI HAR Dataset\\test\\y_test.txt"
-project_summarized_dataset_file_name <- "har_summarized_dataset.txt"
+project_summarized_dataset_file_name <- "Getting-and-Cleaning-Data-Course-Project\\har_summarized_dataset.txt"
 
 ## 1) Merge training and test datasets
 ## Read in feature names and convert them to valid column names
