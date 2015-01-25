@@ -2,8 +2,8 @@ library(stringr)
 library(plyr)
 library(dplyr)
 
-## Set working directory to where the data files are
-setwd("C:\\Coursera Courses\\Getting and Cleaning Data\\Course Project\\")
+## Set working directory to where the data files are.  Modify this if yours is different.
+setwd("C:\\Coursera Courses\\Getting and Cleaning Data\\Course Project\\Getting-and-Cleaning-Data-Course-Project")
 
 ## Set the data file names that will be used below to be relative to the current working directory.  This
 ## assumes a folder structure with training and test data in separate child folders and everything else in 
