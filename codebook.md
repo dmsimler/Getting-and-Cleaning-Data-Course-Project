@@ -3,7 +3,7 @@
 # Codebook
 Given below is the list of columns in the final tidy dataset saved to the file "har_summarized_dataset.txt"
 
-##subjectID - Column 1
+**subjectID - Column 1**
 + Identifies the subject for whom the given observation was made
 + It is an integer between 1 and 30 
 
