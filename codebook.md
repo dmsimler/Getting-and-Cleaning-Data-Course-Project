@@ -1,29 +1,33 @@
 # Overview
 
 # Codebook
+Given below is the list of columns in the final tidy dataset saved to the file "har_summarized_dataset.txt"
 
-* subjectID	
-* activityName	
-* tBodyAcc_mean_X_actmean	
-* tBodyAcc_mean_Y_actmean	
-* tBodyAcc_mean_Z_actmean	
-* tBodyAcc_std_X_actmean	
-* tBodyAcc_std_Y_actmean	
-* tBodyAcc_std_Z_actmean	
-* tGravityAcc_mean_X_actmean	
-* tGravityAcc_mean_Y_actmean	
-* tGravityAcc_mean_Z_actmean	
-* tGravityAcc_std_X_actmean	
-* tGravityAcc_std_Y_actmean	
-* tGravityAcc_std_Z_actmean	
-* tBodyAccJerk_mean_X_actmean	
-* tBodyAccJerk_mean_Y_actmean	
-* tBodyAccJerk_mean_Z_actmean	
-* tBodyAccJerk_std_X_actmean	
-* tBodyAccJerk_std_Y_actmean	
-* tBodyAccJerk_std_Z_actmean	
-* tBodyGyro_mean_X_actmean	
-* tBodyGyro_mean_Y_actmean	
+##subjectID - Column 1
++ Identifies the subject for whom the given observation was made
++ It is an integer between 1 and 30 
+
+activityName	
+tBodyAcc_mean_X_actmean	
+tBodyAcc_mean_Y_actmean	
+tBodyAcc_mean_Z_actmean	
+tBodyAcc_std_X_actmean	
+tBodyAcc_std_Y_actmean	
+tBodyAcc_std_Z_actmean	
+tGravityAcc_mean_X_actmean	
+tGravityAcc_mean_Y_actmean	
+tGravityAcc_mean_Z_actmean	
+tGravityAcc_std_X_actmean	
+tGravityAcc_std_Y_actmean	
+tGravityAcc_std_Z_actmean	
+tBodyAccJerk_mean_X_actmean	
+tBodyAccJerk_mean_Y_actmean	
+tBodyAccJerk_mean_Z_actmean	
+tBodyAccJerk_std_X_actmean	
+tBodyAccJerk_std_Y_actmean	
+tBodyAccJerk_std_Z_actmean	
+tBodyGyro_mean_X_actmean	
+tBodyGyro_mean_Y_actmean	
 tBodyGyro_mean_Z_actmean	
 tBodyGyro_std_X_actmean	
 tBodyGyro_std_Y_actmean	
